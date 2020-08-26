@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head> </head>
+	<body>
+		<h1>Buat Account Baru!</h1>
+
+		<h2>Sign Up Form</h2>
+
+		<form action="submission.html" method="GET">
+			<label for="firstname">First name:</label>
+			<br />
+			<input id="firstname" name="firstname" type="text" required />
+			<br />
+			<br />
+			<label for="lastname">Last name:</label>
+			<br />
+			<input id="lastname" name="lastname" type="text" required />
+			<br />
+			<section class="gender">
+			<label for="gender">Gender:</label>
+			<br />
+			<input type="radio" id="male" name="gender" value="male" />
+			<label for="male">Male</label><br />
+			<input type="radio" id="female" name="gender" value="female" />
+			<label for="female">Female</label><br />
+			<input type="radio" id="other" name="gender" value="other" />
+			<label for="other">Other</label>
+			</section>
+			<br />
+			<br />
+			<section class="nationality">
+				<label for="nationality">Nationality</label>
+				<br />
+				<select name="nationality" id="nationality">
+					<option value="indonesia">indonesian</option>
+					<option value="malaysian">malaysian</option>
+					<option value="singaporean">singaporean</option>
+					<option value="australian">australian</option>
+				</select>
+			</section>
+			<br />
+			<br />
+
+			<section class="language-spoken">
+				<label>Languange Spoken:</label>
+				<br />
+				<input
+					type="checkbox"
+					name="language-spoken"
+					id="bahasaindonesia"
+					value="Bahasa indonesia"
+				/>
+				<label for="bahasaindonesia">Bahasa Indonesia</label>
+				<br />
+				<input
+					type="checkbox"
+					name="language-spoken"
+					id="english"
+					value="english"
+				/>
+				<label for="english">English</label>
+				<br />
+				<input
+					type="checkbox"
+					name="language-spoken"
+					id="other"
+					value="other"
+				/>
+				<label for="other">Other</label>
+			</section>
+			<br />
+
+			<section class="Bio">
+				<label for="extra">Bio</label>
+				<br />
+				<textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+			</section>
+
+			<input type="submit" value="Sign Up" />
+		</form>
+	</body>
+</html>
