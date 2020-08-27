@@ -1,0 +1,40 @@
+#judul {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+	font-size: 4cm;
+	padding-top: 2cm;
+	margin: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	color: azure;
+	-webkit-text-stroke: 2px black;
+}
+
+body {
+	background-color: rgb(243, 39, 243);
+}
+#ponk {
+	border: 2px solid #fff;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+p {
+	text-align: center;
+	color: rgb(255, 117, 225)4, 218, 218);
+	font: size 3;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	
+}
+
+.gambar {
+	width: 200px;
+	height: 200px;
+}
